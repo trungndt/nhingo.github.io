@@ -1,0 +1,73 @@
+// body, html {
+//   font-size: 18px;
+// }
+
+.orange,
+.orange:hover,
+.orange i,
+.orange:visited,
+.orange:focus {
+  color: $color-primary;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.big_title {
+  font-size: $font-size-xl;
+  line-height: 1.2;
+}
+
+.big_text {
+  font-size: $font-size-r;
+  line-height: 1.2;
+}
+
+.small_title {
+  font-size: $font-size-md;
+}
+
+.big_padding {
+  padding: 9vh 0;
+}
+
+.padding_top_0 {
+  padding-top: 0;
+}
+
+.padding_bottom_0 {
+  padding-bottom: 0;
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 1300px;
+  }
+}
+
+@media (min-width: 1900px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+
+  .mobile_center {
+    text-align: center;
+  }
+
+  .big_title {
+    font-size: $font-size-xl;
+    line-height: 1.2;
+  }
+
+}

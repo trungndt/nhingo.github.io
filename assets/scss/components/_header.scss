@@ -1,0 +1,33 @@
+/* MENU */
+.navbar {
+  display: block;
+}
+
+/* ========== HEADER ========== */
+.header_style {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+}
+
+.header_style.fixed {
+  /* background-color: rgba(0, 0, 0, 0.4) */
+}
+
+.gc-logo {
+  display: inline-block;
+  height: 70px;
+  box-sizing: content-box;
+  padding-top: 15px;
+}
+
+@media (max-width: 992px) {
+  .gc-logo {
+    width: 60vw;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+}

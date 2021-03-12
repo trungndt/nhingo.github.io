@@ -1,0 +1,44 @@
+/* ========== BANNER ========== */
+.inter_3_bg,
+.dark.inter_3_bg {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../images/bg/bg-black.jpg) fixed #444 center;
+  background-size: 100% auto;
+  background-position: center 0;
+}
+
+.banner {
+  padding-top: 25vh;
+}
+
+.icon-major {
+  display: block;
+  /* text-align: center; */
+}
+
+.icon-major img {
+  display: inline-block;
+  width: 150px;
+  height: auto;
+  /* fill: #20225D; */
+}
+
+@media (max-width: 992px) {
+  .inter_3_bg,
+  .dark.inter_3_bg {
+    background: {
+      size: auto 100%;
+      position: 100% 0;
+      repeat: no-repeat;
+    }
+    height: 85vh;
+  }
+
+  .banner {
+    padding-top: 15vh;
+    &.container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+}

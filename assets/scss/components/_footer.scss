@@ -1,0 +1,40 @@
+.logo-footer {
+  width: 15rem;
+  display: inline-block;
+  img {
+    width: 100%;
+  }
+}
+
+.contact-info {
+  // width: 80%;
+  margin: 0 auto;
+  .row {
+    margin: 0;
+  }
+  .col-10 {
+    padding-left: 0;
+  }
+}
+
+.footer {
+  background-color: $color-secondary;
+}
+
+.footer-main {
+  padding: 3rem 0;
+}
+
+.footer-sub {
+  background-color: $color-secondary-darker;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: $font-size-sm;
+}
+
+@media (max-width: 992px) {
+  .contact-info {
+    width: 80%;
+    margin-top: 2rem;
+  }
+}
